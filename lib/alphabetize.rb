@@ -1,7 +1,10 @@
 def alphabetize(arr)
-  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  i = 0
   arr.sort_by do |str|
-    alphabet.index(str[0])
-    
+    alph.index(str[i])
+    if alph.index(str[i]) == alph.index(arr[])
+      
+    end
   end
 end
