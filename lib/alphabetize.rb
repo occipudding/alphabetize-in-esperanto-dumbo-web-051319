@@ -1,3 +1,8 @@
 def alphabetize(arr)
-  # code here
+  alph = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  arr.sort_by do |str|
+    str.split("").collect do |char|
+      alph.index(char)
+    end
+  end
 end
