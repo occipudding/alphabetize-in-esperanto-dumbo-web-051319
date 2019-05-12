@@ -1,7 +1,7 @@
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+  alphabet = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by do |str|
-    arr.index(str[0])
+    alphabet.index(str[0])
   end
   arr
 end
